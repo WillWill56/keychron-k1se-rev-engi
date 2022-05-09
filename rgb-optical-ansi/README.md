@@ -1,12 +1,25 @@
 # Keychron K1SE RGB Optical ANSI
 
-Not yet finished
+Extremely similar to Keychron K3.
+
+Not yet finished or verified, use this information at your own risk.
 
 ## Chips
 
-Main chip has markings sanded off, probbably safe to assume SN32F248B
+Main chip has markings sanded off, probably safe to assume SN32F248B
 
 Bluetooth chip is Cypress CYW20730 A2KFBG
 
 Charge IC is TP4056
 
+## MCU Diagram - Keyboard Matrix
+
+| --- | col | C0 | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8 | C9 | C10 | C11 | C12 | C13 | C14 | C15 | C16 |
+| --- | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- | --- | --- | --- | --- | --- | --- |
+| row | pin | 25 | 26 | 27 | 28 | 29 | 30 | 31 | 32 | 34 | 35 | 36  | 37  | 38  | 39  | 40  | 41  | 42  |
+| R0  | 64  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
+| R1  | 63  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
+| R2  | 62  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
+| R3  | 61  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
+| R4  | 60  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
+| R5  | 59  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
