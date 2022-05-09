@@ -1,6 +1,6 @@
 # Keychron K1SE RGB Optical ANSI
 
-Extremely similar to Keychron K3.
+Extremely similar to Keychron K3. Very similar to 
 
 Not yet finished or verified, use this information at your own risk.
 
@@ -24,6 +24,8 @@ Charge IC is TP4056
 | R4  | 60  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
 | R5  | 59  |    |    |    |    |    |    |    |    |    |    |     |     |     |     |     |     |     |
 
+Column drivers are QX1 through to QX17. Row drivers are QQ1 through to QQ6.
+
 ## MCU Diagram - LED Matrix
 
 |   g  |   b  |   r  |  --- |  --- |  --- | col | C0 | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8 | C9 | C10 | C11 | C12 | C13 | C14 | C15 | C16 |
@@ -35,3 +37,13 @@ Charge IC is TP4056
 |  Q16 |  Q10 |  Q4  |  11  |  12  |  13  | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- | --- | --- | --- | --- | --- | --- |
 |  Q17 |  Q11 |  Q5  |  14  |  15  |  47  | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- | --- | --- | --- | --- | --- | --- |
 |  Q18 |  Q12 |  Q6  |  50  |  49  |  48  | --- | -- | -- | -- | -- | -- | -- | -- | -- | -- | -- | --- | --- | --- | --- | --- | --- | --- |
+
+# MCU Diagram - Mode Switches
+
+- (Bluetooth / Off / Cable) Mode: pin 57
+- (Windows-Android / Mac-iOS) Mode: pin 58
+
+## MCU-Diagram - Status LED Indicators
+
+- Bluetooth: pin 45
+- Num Lock: pin 51
