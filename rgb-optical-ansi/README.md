@@ -1,6 +1,6 @@
 # Keychron K1SE RGB Optical ANSI
 
-Extremely similar to Keychron K3. Very similar to 
+Extremely similar to Keychron K3. Very similar to K4 as well, in terms of pins/wiring.
 
 Not yet finished or verified, use this information at your own risk.
 
