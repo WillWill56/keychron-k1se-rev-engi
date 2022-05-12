@@ -1,4 +1,4 @@
-# Keychron K1SE RGB Optical ANSI
+# Keychron K1 SE RGB Optical ANSI
 
 Extremely similar to Keychron K3. Very similar to K4 as well, in terms of pins/wiring.
 
@@ -6,11 +6,11 @@ Not yet finished or verified, use this information at your own risk.
 
 ## Chips
 
-Main chip has markings sanded off, probably safe to assume SN32F248B
+Main chip has markings sanded off, but based on the K1 SE firmware update tool it appears to be an SN32F24xB. Firmware file is named `SN32F240B_32.hex`, although it seems more likely the chip is the SN32F248B.
 
-Bluetooth chip is Cypress CYW20730 A2KFBG
+Bluetooth chip is Cypress CYW20730 A2KFBG.
 
-Charge IC is TP4056
+Charge IC is TP4056.
 
 ## Key Matrix
 
