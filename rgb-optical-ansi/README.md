@@ -54,4 +54,4 @@ Column drivers are QX1 through to QX17. Row drivers are QQ1 through to QQ6.
 ## MCU-Diagram - Status LED Indicators
 
 - Bluetooth: pin 45
-- Num Lock: pin 51
+- Caps Lock: pin 51
