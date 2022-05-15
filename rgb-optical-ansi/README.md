@@ -2,7 +2,8 @@
 
 Extremely similar to Keychron K3. Very similar to K4 as well, in terms of pins/wiring.
 
-Not yet finished or verified, use this information at your own risk.
+Successfully flashed and verified all keys and lighting appears to be working as it should.
+It is still strongly advised to be careful with this information, there may still be errors or omissions, use it at your own risk.
 
 ## Chips
 
